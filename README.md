@@ -10,4 +10,5 @@ Thus, it’s implemented using a non-blocking (aka asynchronous) code for concur
 The Scrapy Engine is responsible for controlling the data flow between all components of the system, and triggering events when certain actions occur.
 
 The Scheduler receives requests from the engine and enqueues them for feeding them later (also to the engine) when the engine requests them. 
+
 The Downloader is responsible for fetching web pages and feeding them to the engine which, in turn, feeds them to the spiders.
